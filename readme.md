@@ -13,3 +13,5 @@ to be integrated in all your CAN-enabled device ideas.
 
 Just provide a power source (+5V to +15V DC) and you're good to go. For automotive applications,
 the only external component you should bring is load dump protection (often a TVS diode).
+
+NB: looking to put TinySparrow on a breadboard? [Here's an adapter for that!](https://github.com/enp6s0/TinySparrowBreadboardAdapter)
