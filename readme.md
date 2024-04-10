@@ -11,7 +11,14 @@ Then TinySparrow is for you! This cute little board combines a [STM32F103TB](htt
 CAN transceiver, power regulation, and reverse polarity protection all in a single board, so it's ready
 to be integrated in all your CAN-enabled device ideas.
 
-Just provide a power source (+5V to +15V DC) and you're good to go. For automotive applications,
-the only external component you should bring is load dump protection (often a TVS diode).
+### Bring your own X
+
+To use TinySparrow in your project, simply create a carrier board and bring your own:
+
+* Power source (+5 to +15V DC)
+* Additional CAN bus ESD protection if needed (default transceiver is already ESD-rated for ±16 kV HBM, board is also TCAN332 compatible for even better protection)
+* CAN termination (if needed)
+
+For automotive applications, external load dump protection is **required** (TVS diode at a minimum).
 
 NB: looking to put TinySparrow on a breadboard? [Here's an adapter for that!](https://github.com/enp6s0/TinySparrowBreadboardAdapter)
