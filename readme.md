@@ -7,7 +7,7 @@ Ever wanted to integrate CAN bus functionality into your projects, but didn't wa
 deal with laying out all the commonly used parts every single time?
 
 Then TinySparrow is for you! Now in its 2nd generation, this cute little board combines a
-[STM32G0B1CB](https://www.st.com/en/microcontrollers-microprocessors/stm32g0b1cb.html) MCU,
+[STM32G0B1](https://www.st.com/en/microcontrollers-microprocessors/stm32g0b1cb.html) MCU,
 2x CAN-FD transceivers and power regulation all in a single board, ready to be integrated
 in all your CAN-enabled device ideas.
 
@@ -33,3 +33,19 @@ in all your CAN-enabled device ideas.
 	* 72 total pins available, 60 currently used (all unused MCU pins available)
 	* 12 pins reserved for future use (with other boards/revisions)
 	* Easy to solder / design carrier boards for :)
+
+### Module pinout
+Top left corner identified by golden notch.
+
+|              |              |             |        |        |        |        |     |     |     |            |      |
+|:------------:|:------------:|:-----------:|:------:|:------:|:------:|:------:|:---:|:---:|:---:|:----------:|:----:|
+|      GND     |      GND     |  +VDC (in)  |    x   |    x   |    x   |    x   | GND |  x  |  x  |      x     |  GND |
+|     PA10     |  USB+ (PA12) | USB- (PA11) | CAN0 H | CAN0 L | CAN1 H | CAN1 L | GND |  x  |  x  | Power good | PB14 |
+| nRESET (PF2) |     +3V3     |             |        |        |        |        |     |     |     |    PB13    | PB12 |
+| SWDIO (PA13) | SWCLK (PA14) |             |        |        |        |        |     |     |     |    PB11    | PB10 |
+|      PD2     |     PA15     |             |        |        |        |        |     |     |     |     GND    |  PB2 |
+|      PB3     |      PD3     |             |        |        |        |        |     |     |     |    PB15    |  PA8 |
+|      PB4     |      PB5     |             |        |        |        |        |     |     |     |     PA9    |  PC6 |
+|      PB6     |      PB7     |             |        |        |        |        |     |     |     |  +VDC (in) |  PC7 |
+|      PB8     |      PB9     |     PC13    |  PC15  |  +3V3  |   PF1  |   PA1  | PA3 | PA5 | PA7 |     GND    |   x  |
+|      GND     |      GND     |     PC14    |  +VBAT |  +3V3  |   GND  |   PA0  | PA2 | PA4 | PA6 |      x     |  GND |
