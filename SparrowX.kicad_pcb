@@ -1302,7 +1302,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 2.55 -0.529999 0)
+			(at 2.55 -1.129999 0)
 			(layer "F.SilkS")
 			(uuid "1e774741-37ac-4679-9066-0f57e881ffed")
 			(effects
@@ -8169,6 +8169,16 @@
 		(layer "F.SilkS")
 		(uuid "97d8b592-a11f-4546-a6f0-c1456c452d01")
 	)
+	(gr_line
+		(start 175.8 86.7)
+		(end 176.6 86.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b76d2c4-701e-4687-ac15-4cc6d5806853")
+	)
 	(gr_arc
 		(start 166.6 83.95)
 		(mid 167.7 85.05)
@@ -8231,6 +8241,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ae517ddc-16ad-420a-a3a5-a1277d594021")
+	)
+	(gr_line
+		(start 176.6 86.7)
+		(end 176.8 86.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b140d063-7e24-4acf-a9de-f7c8a90eb697")
 	)
 	(gr_circle
 		(center 181.8 92.65)
@@ -8622,7 +8642,7 @@
 		)
 	)
 	(gr_text "U2"
-		(at 175.8 87.38855 0)
+		(at 174.4 87.28855 0)
 		(layer "F.SilkS")
 		(uuid "9fe24e88-d350-49d4-953e-e925aa67637e")
 		(effects
