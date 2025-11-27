@@ -1,24 +1,35 @@
 # TinySparrow
+A compact, low-cost, CAN-FD enabled *core board* for all sorts of automotive shenanigans (and beyond)!
 
-Tiny, low-cost, CAN-enabled core board for simple ECU designs!
+![TinySparrow X board](/docs/tsx-rendering.png?raw=true "TinySparrow X board rendering")
 
-![TinySparrow core board](/resources/SparrowCore.png?raw=true "TinySparrow core board")
+Ever wanted to integrate CAN bus functionality into your projects, but didn't want to
+deal with laying out all the commonly used parts every single time?
 
-Ever wanted to integrate CAN features into your ECU projects, but didn't want to deal with
-building all the core parts (MCU/power/CAN PHY) all the time for every single one-off ECU?
+Then TinySparrow is for you! Now in its 2nd generation, this cute little board combines a
+[STM32G0B1CB](https://www.st.com/en/microcontrollers-microprocessors/stm32g0b1cb.html) MCU,
+2x CAN-FD transceivers and power regulation all in a single board, ready to be integrated
+in all your CAN-enabled device ideas.
 
-Then TinySparrow is for you! This cute little board combines a [STM32F103TB](https://www.st.com/en/microcontrollers-microprocessors/stm32f103tb.html) MCU,
-CAN transceiver, power regulation, and reverse polarity protection all in a single board, so it's ready
-to be integrated in all your CAN-enabled device ideas.
+### General specifications
 
-### Bring your own X
+* QFN-48 "STM32G0" series Cortex-M0 microcontroller
+	* Ships with STM32G0B1CBU6 by default (128K flash, 144K RAM)
+	* (should be) pin-compatible with the STM32G0C1CE should you want more RAM/flash or hardware crypto
+	* Crystal-less USB device capability
 
-To use TinySparrow in your project, simply create a carrier board and bring your own:
+* Dual CAN-FD (up to 5Mbps)
+	* Texas Instruments [TCAN332G](https://www.ti.com/product/TCAN332G) PHYs
+	* CAN bus ESD diodes included (probably a good idea to add another near connectors though)
 
-* Power source (+5 to +15V DC)
-* Additional CAN bus ESD protection if needed (default transceiver is already ESD-rated for ±16 kV HBM, board is also TCAN332 compatible for even better protection)
-* CAN termination (if needed)
+* Dual stage power supply
+	* 4 to 15 VDC in
+	* Reverse polarity protection and voltage clamping diodes onboard
+	* 3.3 VDC system voltage (~500mA available for off-board peripherals)
+	* Texas Instruments [TPS629210-Q1](https://www.ti.com/product/TPS629210-Q1) buck converter (first stage)
+	* STMicroelectronics [LD49100](https://www.st.com/resource/en/datasheet/ld49100.pdf) linear regulator (second stage)
 
-For automotive applications, external load dump protection is **required** (TVS diode at a minimum).
-
-NB: looking to put TinySparrow on a breadboard? [Here's an adapter for that!](https://github.com/enp6s0/TinySparrowBreadboardAdapter)
+* 2.54mm pin connectors
+	* 72 total pins available, 60 currently used (all unused MCU pins available)
+	* 12 pins reserved for future use (with other boards/revisions)
+	* Easy to solder / design carrier boards for :)
