@@ -4326,7 +4326,7 @@
 		(uuid "8ebbca58-07ed-407b-872a-7025b10982c9")
 	)
 	(no_connect
-		(at 67.31 160.02)
+		(at 67.31 144.78)
 		(uuid "986b1d9c-c2f1-4944-8f9f-d8119fd8c83d")
 	)
 	(no_connect
@@ -5427,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 144.78) (xy 67.31 144.78)
+			(xy 55.88 160.02) (xy 67.31 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6757,7 +6757,7 @@
 	)
 	(text "Reserved\nfor future\nusage"
 		(exclude_from_sim no)
-		(at 64.008 163.322 0)
+		(at 64.008 165.354 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -6789,17 +6789,6 @@
 			(justify left bottom)
 		)
 		(uuid "535ef85b-8221-48fc-8cdb-21ebb5d64adc")
-	)
-	(text "Power-good signal from\nbuck converter"
-		(exclude_from_sim no)
-		(at 55.118 145.288 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f172eb7-da59-4d6a-8e9c-36e58633bb17")
 	)
 	(text "USB ESD\nProtection"
 		(exclude_from_sim no)
@@ -7698,7 +7687,7 @@
 		(uuid "994a55ae-ab12-4c0d-9782-ea7c6fa1e3e2")
 	)
 	(label "P_{GOOD}"
-		(at 55.88 144.78 0)
+		(at 55.88 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
