@@ -13,7 +13,7 @@ in all your CAN-enabled device ideas.
 
 ### General specifications
 
-* QFN-48 "STM32G0" series Cortex-M0 microcontroller
+* QFN-48 "STM32G0" series ARM Cortex-M0+ microcontroller
 	* Ships with STM32G0B1CBU6 by default (128K flash, 144K RAM)
 	* (should be) pin-compatible with the STM32G0C1CE should you want more RAM/flash or hardware crypto
 	* Crystal-less USB device capability
