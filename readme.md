@@ -23,10 +23,10 @@ in all your CAN-enabled device ideas.
 	* CAN bus ESD diodes included (probably a good idea to add another near connectors though)
 
 * Dual stage power supply
-	* 4 to 15 VDC in
-	* Reverse polarity protection and voltage clamping diodes onboard
+	* Much wider range: 5 to 25 VDC in!
+	* "Batteries included" protection: reverse polarity and voltage clamping diodes included
 	* 3.3 VDC system voltage (~500mA available for off-board peripherals)
-	* Texas Instruments [TPS629210-Q1](https://www.ti.com/product/TPS629210-Q1) buck converter (first stage)
+	* Texas Instruments [LMR43610-Q1](https://www.ti.com/product/LMR43610-Q1) buck converter (first stage)
 	* STMicroelectronics [LD49100](https://www.st.com/resource/en/datasheet/ld49100.pdf) linear regulator (second stage)
 
 * 2.54mm pin connectors

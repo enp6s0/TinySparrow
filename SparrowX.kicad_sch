@@ -4279,6 +4279,12 @@
 		(uuid "245ae258-23c2-4c74-bdeb-df315de3be36")
 	)
 	(junction
+		(at 72.39 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29cf9b3c-a1ed-40e4-9047-04827be90b48")
+	)
+	(junction
 		(at 123.19 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4327,12 +4333,6 @@
 		(uuid "7d5455b7-c644-42aa-8a0d-dc0da1c3608d")
 	)
 	(junction
-		(at 69.85 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8308a453-f43b-411f-b7af-2f1bcafffe9c")
-	)
-	(junction
 		(at 72.39 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4367,6 +4367,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5631945-0a86-44da-9b50-7187fd228423")
+	)
+	(junction
+		(at 78.74 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac2efe12-66c0-48f3-9eb5-b8e7bb32f780")
 	)
 	(junction
 		(at 27.94 130.81)
@@ -4409,12 +4415,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce801ef0-466b-43bc-bda7-e962430940a1")
-	)
-	(junction
-		(at 69.85 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dca876b6-bd6f-49cb-83fd-edb8154e9c69")
 	)
 	(junction
 		(at 232.41 113.03)
@@ -4842,6 +4842,26 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 50.8) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b22e0f9-e114-447b-8abe-b7f139e37f73")
+	)
+	(wire
+		(pts
+			(xy 69.85 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea437d1-5827-441a-a100-f00a8a8ffb96")
+	)
+	(wire
+		(pts
 			(xy 45.72 180.34) (xy 45.72 189.23)
 		)
 		(stroke
@@ -4939,6 +4959,16 @@
 			(type default)
 		)
 		(uuid "2b67b864-dddb-44e1-8b4d-9ec50e6d2519")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 78.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b96c96d-2896-4bb5-a0e6-20981bb64e09")
 	)
 	(bus
 		(pts
@@ -5592,16 +5622,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 57.15) (xy 69.85 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752a9948-a466-4490-b675-f1cfb6f8be3e")
-	)
-	(wire
-		(pts
 			(xy 119.38 36.83) (xy 123.19 36.83)
 		)
 		(stroke
@@ -5649,16 +5669,6 @@
 			(type default)
 		)
 		(uuid "7a08216c-d209-4a59-822d-1e8b5861fe8e")
-	)
-	(wire
-		(pts
-			(xy 69.85 53.34) (xy 69.85 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0cc69f-12f4-4e90-90d4-fabe581202a2")
 	)
 	(wire
 		(pts
@@ -6572,6 +6582,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 57.15) (xy 83.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e050bf-4b11-424f-902c-0cfd6ea22875")
+	)
+	(wire
+		(pts
 			(xy 160.02 121.92) (xy 160.02 135.89)
 		)
 		(stroke
@@ -6652,16 +6672,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 53.34) (xy 69.85 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a4c1f6-6e18-4733-9d02-128043c9ff74")
-	)
-	(wire
-		(pts
 			(xy 41.91 40.64) (xy 41.91 46.99)
 		)
 		(stroke
@@ -6722,7 +6732,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 83.82 57.15)
+			(xy 55.88 57.15) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7032,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 49.53) (xy 72.39 53.34)
+			(xy 72.39 49.53) (xy 72.39 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7042,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 69.85 53.34)
+			(xy 69.85 40.64) (xy 69.85 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7108,9 +7118,9 @@
 		)
 		(uuid "05ef0f9a-3c9f-4c01-bbbe-5cd6211d895d")
 	)
-	(text "Switching freq.\n2200 kHz (fixed)\nRfbt/Rfbb table 8-1"
+	(text "2200 kHz fixed\nRfbt/Rfbb eq 5/6\n\nR_{FBT} <= 10k * 3.8\n      <= 38k ohm\n\nR_{FBT} || R{FBB} <= 10k\n12K || 38K = 9.12K\n"
 		(exclude_from_sim no)
-		(at 56.896 50.546 0)
+		(at 56.896 56.642 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -7165,7 +7175,7 @@
 	)
 	(text "Power-good signal from\nswitching reg isn't used,\nwe use the one from linear reg\ninstead, since that's the final output"
 		(exclude_from_sim no)
-		(at 63.5 62.992 0)
+		(at 74.168 63.5 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -7174,9 +7184,9 @@
 		)
 		(uuid "404cc897-9a38-4ccf-9a3b-bdd6b4c6fc8e")
 	)
-	(text "R_{FBB}"
+	(text "R_{FBB}\n1%"
 		(exclude_from_sim no)
-		(at 76.962 48.26 0)
+		(at 76.962 49.276 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -7208,6 +7218,17 @@
 			(justify left bottom)
 		)
 		(uuid "535ef85b-8221-48fc-8cdb-21ebb5d64adc")
+	)
+	(text "Set to\n3.8V"
+		(exclude_from_sim no)
+		(at 74.1117 26.288 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f61ba59-636b-4016-95c6-4d54b7a232e9")
 	)
 	(text "USB ESD\nProtection"
 		(exclude_from_sim no)
@@ -7335,7 +7356,7 @@
 		)
 		(uuid "c63b5a41-be10-478e-8465-e0d57fdba1a3")
 	)
-	(text "R_{FBT}"
+	(text "R_{FBT}\n1%"
 		(exclude_from_sim no)
 		(at 83.312 40.132 0)
 		(effects
@@ -8325,6 +8346,17 @@
 		)
 		(uuid "c89ccffc-8ab6-48c5-9cc0-43ee358e3e84")
 	)
+	(label "VFB"
+		(at 69.85 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f83eb6-6d12-43c3-8909-47219b349fd4")
+	)
 	(label "PA0"
 		(at 43.18 189.23 90)
 		(fields_autoplaced yes)
@@ -9015,8 +9047,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "14.3K"
-			(at 72.39 48.514 90)
+		(property "Value" "12K"
+			(at 72.39 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +10265,7 @@
 		(dnp no)
 		(uuid "5398080f-4fa6-4dd3-b5f5-615368143e7b")
 		(property "Reference" "U1"
-			(at 54.229 25.146 0)
+			(at 54.991 23.876 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10241,7 +10273,7 @@
 			)
 		)
 		(property "Value" "LMR43610MSC3RPERQ1"
-			(at 54.737 27.686 0)
+			(at 55.499 26.416 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10671,8 +10703,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33.2K"
-			(at 80.518 40.386 90)
+		(property "Value" "38K"
+			(at 79.502 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
