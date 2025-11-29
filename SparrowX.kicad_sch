@@ -4240,6 +4240,12 @@
 		(uuid "85f517ea-47a8-47a3-8cc8-2257ffd64355")
 	)
 	(junction
+		(at 67.31 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87857d55-ee8d-4406-af06-24a69b97810c")
+	)
+	(junction
 		(at 30.48 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4346,10 +4352,6 @@
 	(no_connect
 		(at 74.93 85.09)
 		(uuid "b9c401e4-4434-43c5-b08e-654dd15d9c13")
-	)
-	(no_connect
-		(at 64.77 45.72)
-		(uuid "ba101f36-678f-4c4a-b4c4-c87dee330228")
 	)
 	(no_connect
 		(at 64.77 85.09)
@@ -4633,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c9cb9e-f780-4717-b381-3d053969e900")
+	)
+	(wire
+		(pts
 			(xy 30.48 118.11) (xy 21.59 118.11)
 		)
 		(stroke
@@ -4803,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 57.15) (xy 72.39 57.15)
+			(xy 54.61 57.15) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5170,6 +5182,16 @@
 			(type default)
 		)
 		(uuid "463dee3b-86e0-4407-91fc-e2c8d6ee8c04")
+	)
+	(wire
+		(pts
+			(xy 64.77 45.72) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4832f3e6-5309-430e-a8f2-0d0095f4a946")
 	)
 	(wire
 		(pts
@@ -6223,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 45.72) (xy 67.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89c0805-df2c-441c-b7cd-3ae3a9e86a8f")
+	)
+	(wire
+		(pts
 			(xy 45.72 133.35) (xy 45.72 130.81)
 		)
 		(stroke
@@ -6858,6 +6890,17 @@
 		)
 		(uuid "535ef85b-8221-48fc-8cdb-21ebb5d64adc")
 	)
+	(text "Should have\nat least 4V\nhere"
+		(exclude_from_sim no)
+		(at 46.228 41.402 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "612c9fe0-5bba-4c30-b3b0-7d79d713550e")
+	)
 	(text "USB ESD\nProtection"
 		(exclude_from_sim no)
 		(at 100.584 173.482 0)
@@ -6936,9 +6979,9 @@
 		)
 		(uuid "a12a038d-0f16-4dc3-97ad-9c5673cc1de3")
 	)
-	(text "Reverse polarity\nprotection"
+	(text "Reverse polarity\nprotection (<=1V drop)"
 		(exclude_from_sim no)
-		(at 18.034 40.132 0)
+		(at 15.494 40.132 0)
 		(effects
 			(font
 				(size 0.762 0.762)

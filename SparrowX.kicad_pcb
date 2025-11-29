@@ -217,7 +217,6 @@
 	(net 72 "unconnected-(J4-Pin_3-Pad3)")
 	(net 73 "/VREF")
 	(net 74 "/PG_{LR}")
-	(net 75 "/PG_{SWR}")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "16a450c0-e6d0-4ca9-9986-5f9a1bd2d243")
@@ -438,7 +437,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 1.250001 0 360)
+			(at 1.250001 0 0)
 			(layer "F.SilkS")
 			(uuid "5d16fcbd-c5da-4fba-9db7-84af9f04df71")
 			(effects
@@ -449,7 +448,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "a6413839-1ef6-4fa1-969e-988a02d8e9c8")
 			(effects
@@ -584,7 +583,7 @@
 			(uuid "d0de90d6-7032-4265-84c8-ddaee3bc575d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.680001 360)
+			(at 0 -0.680001 0)
 			(layer "F.Fab")
 			(uuid "4e96d9a9-bb5e-43ab-b46c-f716b651cea2")
 			(effects
@@ -1278,7 +1277,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0.9978 -1.060001 360)
+			(at 0.9978 -1.060001 0)
 			(layer "F.SilkS")
 			(uuid "023aee2e-0826-44b2-856a-5f0c35c4517b")
 			(effects
@@ -2592,9 +2591,9 @@
 			(size 0.67 0.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.1666666667)
-			(net 75 "/PG_{SWR}")
+			(net 1 "GND")
 			(pinfunction "PG")
-			(pintype "output+no_connect")
+			(pintype "output")
 			(thermal_bridge_angle 45)
 			(uuid "95143399-898b-43d3-a728-85cb13c21194")
 		)
@@ -9707,12 +9706,28 @@
 		(uuid "3a3ec7cc-6cfa-4897-b6bb-3581a0f0599e")
 	)
 	(segment
+		(start 177.1378 94.0348)
+		(end 177.1378 94.3698)
+		(width 0.12)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "3a67470d-1f34-48e2-9738-d0746f2e784a")
+	)
+	(segment
 		(start 166.762136 99.387764)
 		(end 166.762136 99.952648)
 		(width 0.12)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "4039ee0e-73cc-48de-8905-cc70165ef434")
+	)
+	(segment
+		(start 177.1378 94.3698)
+		(end 177.518 94.75)
+		(width 0.12)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "409e83ba-c312-463f-9267-f8d9efb78af4")
 	)
 	(segment
 		(start 176.1378 96.0622)
@@ -9731,12 +9746,28 @@
 		(uuid "87c99480-0226-48a4-9817-e6224237434a")
 	)
 	(segment
+		(start 178 94.75)
+		(end 178.5 94.25)
+		(width 0.12)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8d57b789-16cc-4251-acdd-931397107dec")
+	)
+	(segment
 		(start 176.1378 95.5148)
 		(end 176.1378 96.0622)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "b17b0e42-8102-4087-9b58-a79e060c9092")
+	)
+	(segment
+		(start 177.518 94.75)
+		(end 178 94.75)
+		(width 0.12)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "c466a6f8-46a6-42a9-abad-270ac10b6028")
 	)
 	(segment
 		(start 180.2 94.8)
@@ -17785,6 +17816,20 @@
 				(xy 179.58781 101.019852) (xy 180.167957 101.6) (xy 178.540624 101.6) (xy 178.052152 101.111528)
 				(xy 178.026876 101.096935) (xy 178.004046 101.067182) (xy 178.008941 101.03) (xy 178.038694 101.00717)
 				(xy 178.051376 101.0055) (xy 179.553162 101.0055)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 177.172948 93.769152) (xy 177.1873 93.8038) (xy 177.1873 94.353062) (xy 177.192962 94.391923)
+				(xy 177.186329 94.418114) (xy 177.188167 94.418458) (xy 177.205438 94.437991) (xy 177.2486 94.52628)
+				(xy 177.248601 94.526282) (xy 177.248602 94.526283) (xy 177.331317 94.608998) (xy 177.349554 94.617913)
+				(xy 177.374378 94.646023) (xy 177.372055 94.683454) (xy 177.343944 94.708279) (xy 177.319029 94.7101)
+				(xy 177.235578 94.6945) (xy 177.235576 94.6945) (xy 177.162232 94.6945) (xy 177.127584 94.680148)
+				(xy 177.113232 94.6455) (xy 177.113871 94.637612) (xy 177.12915 94.543941) (xy 177.113472 94.469624)
+				(xy 177.119145 94.439273) (xy 177.115183 94.43827) (xy 177.099204 94.417739) (xy 177.091621 94.399433)
+				(xy 177.08953 94.394543) (xy 177.086093 94.368206) (xy 177.0883 94.353061) (xy 177.0883 93.8038)
+				(xy 177.102652 93.769152) (xy 177.1373 93.7548) (xy 177.1383 93.7548)
 			)
 		)
 		(filled_polygon
