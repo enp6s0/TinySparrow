@@ -4,4 +4,5 @@
   (lib (name "DMP3028LFDE-13")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/DMP3028LFDE-13.kicad_sym")(options "")(descr ""))
   (lib (name "LD49100PU33RY")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/LD49100PU33RY.kicad_sym")(options "")(descr ""))
   (lib (name "SparrowX-Components-Library")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/SparrowX-Components-Library.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR43610MSC5RPERQ1")(type "KiCad")(uri "${KIPRJMOD}/components/symbol/LMR43610MSC5RPERQ1.kicad_sym")(options "")(descr ""))
 )
