@@ -41,7 +41,7 @@ Top left corner identified by golden notch.
 |:------------:|:------------:|:-----------:|:------:|:------:|:------:|:------:|:---:|:---:|:---:|:----------:|:----------:|
 |      GND     |      GND     |  +VDC (in)  |    x   |    x   |    x   |    x   | GND |  x  |  x  |      x     |  GND       |
 |     PA10     |  USB+ (PA12) | USB- (PA11) | CAN0 H | CAN0 L | CAN1 H | CAN1 L | GND |  x  |  x  |      x     | PB14       |
-| nRESET (PF2) |     +3V3     |             |        |        |        |        |     |     |     |    PB13    | PB12       |
+| nRESET (PF2) |  +3V3 (PROG) |             |        |        |        |        |     |     |     |    PB13    | PB12       |
 | SWDIO (PA13) | SWCLK (PA14) |             |        |        |        |        |     |     |     |    PB11    | PB10       |
 |      PD2     |     PA15     |             |        |        |        |        |     |     |     |     GND    |  PB2       |
 |      PB3     |      PD3     |             |        |        |        |        |     |     |     |    PB15    |  PA8       |
