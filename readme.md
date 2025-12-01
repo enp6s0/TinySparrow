@@ -30,8 +30,8 @@ in all your CAN-enabled device ideas.
 	* STMicroelectronics [LD49100](https://www.st.com/resource/en/datasheet/ld49100.pdf) linear regulator (second stage)
 
 * 2.54mm pin connectors
-	* 72 total pins available, 60 currently used (all unused MCU pins available)
-	* 12 pins reserved for future use (with other boards/revisions)
+	* 72 total pins available, 61 currently used (all unused MCU pins available)
+	* 11 pins reserved for future use (with other boards/revisions)
 	* Easy to solder / design carrier boards for :)
 
 ### Module pinout
