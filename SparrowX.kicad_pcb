@@ -1491,7 +1491,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0.9978 -1.060001 0)
+			(at 0.5322 -0.960001 0)
 			(layer "F.SilkS")
 			(uuid "023aee2e-0826-44b2-856a-5f0c35c4517b")
 			(effects
@@ -2150,7 +2150,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.1524 1.298 180)
+			(at 2.059601 1.298 180)
 			(layer "F.SilkS")
 			(uuid "53f4e67b-d663-433c-941c-58857169c844")
 			(effects
@@ -2376,7 +2376,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 1.904485 -0.46 0)
+			(at 1.704485 -0.36 0)
 			(layer "F.SilkS")
 			(uuid "c1ce1ddd-ba6b-4dc2-8835-3e1b0d7ad7c8")
 			(effects
@@ -2589,7 +2589,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0.4 1.03 0)
+			(at 0.4 0.926666 0)
 			(layer "F.SilkS")
 			(uuid "484f0893-a7fe-49db-a16b-da487022cce3")
 			(effects
@@ -3842,7 +3842,7 @@
 		(descr "SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at -1.110934 -2.608666 180)
+			(at -1.310934 -2.608666 180)
 			(layer "F.SilkS")
 			(uuid "23e12e87-1c8f-4ae8-bab0-b18def394192")
 			(effects
@@ -5169,7 +5169,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D1"
-			(at 2.2624 1.55 0)
+			(at 2.464601 1.55 0)
 			(layer "F.SilkS")
 			(uuid "e61c8e5c-91fb-4b0b-812c-e6de6a0a6424")
 			(effects
@@ -7145,7 +7145,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 0.94 0)
+			(at 0 0.91 0)
 			(layer "F.SilkS")
 			(uuid "49ab0078-7735-4f6b-85b6-79cce87f870e")
 			(effects
@@ -9562,7 +9562,7 @@
 		(uuid "fde8f9cc-69d9-4a56-8860-990de7c72c98")
 	)
 	(gr_line
-		(start 175.2 99.9)
+		(start 175.2 100.3)
 		(end 175.2 99.5)
 		(stroke
 			(width 0.15)
@@ -9677,8 +9677,8 @@
 		(uuid "2b766621-1acc-4347-9fcf-7f12d070fe1b")
 	)
 	(gr_line
-		(start 161.95 101.05)
-		(end 161.9 100.9)
+		(start 161.95 100.95)
+		(end 161.9 100.8)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9687,8 +9687,8 @@
 		(uuid "33182fdb-fb7e-4b52-94de-9c2d0a657bcd")
 	)
 	(gr_line
-		(start 172 91.3)
-		(end 172 90.95)
+		(start 172.2 91.4)
+		(end 172.2 91.05)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9822,7 +9822,7 @@
 		(uuid "505441b5-0b91-41e0-9db6-d7adf7e67aea")
 	)
 	(gr_line
-		(start 172 90.95)
+		(start 172.2 91.05)
 		(end 172.5 90.6)
 		(stroke
 			(width 0.15)
@@ -9934,6 +9934,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "86c59151-1ea2-4122-b28c-b9763a505f1f")
+	)
+	(gr_line
+		(start 175.3 97.3)
+		(end 175.5 97.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86f4f7ff-63c5-47cf-b28b-79217a45a008")
 	)
 	(gr_line
 		(start 157.5 83.7)
@@ -10124,6 +10134,16 @@
 		(layer "F.SilkS")
 		(uuid "b5335f4e-469a-47e7-b3da-3a44cf2ddfce")
 	)
+	(gr_line
+		(start 175.1 97.3)
+		(end 175.3 97.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce1a251a-e750-44db-96b2-15b2d9ab2a8e")
+	)
 	(gr_circle
 		(center 174.2 82.5)
 		(end 174.2 81.484)
@@ -10198,8 +10218,8 @@
 		(uuid "fb1658b1-a948-445a-8f4a-f4e3d9ea9412")
 	)
 	(gr_line
-		(start 162.2 101.05)
-		(end 161.95 101.05)
+		(start 162.2 100.95)
+		(end 161.95 100.95)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -10810,8 +10830,9 @@
 		(uuid "e7585eeb-9271-4536-b481-85092bce1d69")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.15)
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
 			)
 		)
 	)
