@@ -53,3 +53,8 @@ in all your CAN-enabled device ideas.
 |      PB6     |      PB7     |             |        |        |        |        |     |     |     | Power good |  PC7       |
 |      PB8     |      PB9     |     PC13    |  PC15  |  +3V3  |   PF1  |   PA1  | PA3 | PA5 | PA7 |      x     |  +VDC (in) |
 |      GND     |      GND     |     PC14    |  +VBAT |  +3V3  |   PF0  |   PA0  | PA2 | PA4 | PA6 |     GND    |  GND       |
+
+
+### Revision/stepping info
+
+* `A1`: initial release for Gen2 design
