@@ -7140,6 +7140,17 @@
 		)
 		(uuid "0c120f1d-ffc3-4c33-997e-cbf1a1edbde6")
 	)
+	(text "VCC\n~3.3V"
+		(exclude_from_sim no)
+		(at 42.418 40.386 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "130fac52-56e3-49b6-8ab0-371710233bcd")
+	)
 	(text "~200 mA maximum ea.\nunder dominant bus fault,\ntypically much lower"
 		(exclude_from_sim no)
 		(at 234.95 56.642 0)
@@ -7477,9 +7488,9 @@
 		)
 		(uuid "f3de0469-e293-4bf6-9f02-f081e90e732b")
 	)
-	(text "C_{VCC} (50V)"
+	(text "C_{VCC}"
 		(exclude_from_sim no)
-		(at 50.292 54.61 0)
+		(at 49.022 55.118 0)
 		(effects
 			(font
 				(size 0.762 0.762)
