@@ -43,10 +43,10 @@ in all your CAN-enabled device ideas.
 
 |              |              |             |        |        |        |        |     |     |     |            |            |
 |:------------:|:------------:|:-----------:|:------:|:------:|:------:|:------:|:---:|:---:|:---:|:----------:|:----------:|
-|      GND     |      GND     |  +VDC (in)  |    x   |    x   |    x   |    x   | GND |  x  |  x  |      x     |  GND       |
+| Key pin (NC) |      GND     |     GND     |    x   |    x   |    x   |    x   | GND |  x  |  x  |      x     |  GND       |
 |     PA10     |  USB+ (PA12) | USB- (PA11) | CAN0 H | CAN0 L | CAN1 H | CAN1 L | GND |  x  |  x  |      x     | PB14       |
 | nRESET (PF2) |  +3V3 (PROG) |             |        |        |        |        |     |     |     |    PB13    | PB12       |
-| SWDIO (PA13) | SWCLK (PA14) |             |        |        |        |        |     |     |     |    PB11    | PB10       |
+| SWCLK (PA14) | SWDIO (PA13) |             |        |        |        |        |     |     |     |    PB11    | PB10       |
 |      PD2     |     PA15     |             |        |        |        |        |     |     |     |     GND    |  PB2       |
 |      PB3     |      PD3     |             |        |        |        |        |     |     |     |    PB15    |  PA8       |
 |      PB4     |      PB5     |             |        |        |        |        |     |     |     |     PA9    |  PC6       |
@@ -58,3 +58,4 @@ in all your CAN-enabled device ideas.
 ### Revision/stepping info
 
 * `A1`: initial release for Gen2 design
+* `A2`: ESD diode routing fixes, lighter application of via-in-pad to improve manufacturability *(Breaking pinout change: SWDIO/SWCLK swap, top left corner now a NC key pin)*

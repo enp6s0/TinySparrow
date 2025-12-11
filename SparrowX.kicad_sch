@@ -4369,16 +4369,16 @@
 		(uuid "a5631945-0a86-44da-9b50-7187fd228423")
 	)
 	(junction
+		(at 72.39 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aafd29c1-5c16-4666-ac41-35b228ccc42a")
+	)
+	(junction
 		(at 78.74 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac2efe12-66c0-48f3-9eb5-b8e7bb32f780")
-	)
-	(junction
-		(at 27.94 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af056135-96ee-4e80-9e01-7929a2381476")
 	)
 	(junction
 		(at 33.02 41.91)
@@ -4437,6 +4437,10 @@
 	(no_connect
 		(at 67.31 162.56)
 		(uuid "5bab0482-c466-4c8e-9d12-7d51454bf343")
+	)
+	(no_connect
+		(at 30.48 107.95)
+		(uuid "5d9845da-d765-4f87-a18e-7403b422b61e")
 	)
 	(no_connect
 		(at 74.93 97.79)
@@ -5202,16 +5206,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 107.95) (xy 30.48 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8d5fa7-50b5-45b6-948f-a65a41e90fc0")
-	)
-	(wire
-		(pts
 			(xy 123.19 36.83) (xy 123.19 45.72)
 		)
 		(stroke
@@ -5522,16 +5516,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 130.81) (xy 27.94 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f8ec2f-3b79-4ae0-ae8e-8d0d41b21cc1")
-	)
-	(wire
-		(pts
 			(xy 176.53 102.87) (xy 190.5 102.87)
 		)
 		(stroke
@@ -5739,6 +5723,16 @@
 			(type default)
 		)
 		(uuid "85612b8e-e4de-4eb8-a5b7-df39b4214c04")
+	)
+	(wire
+		(pts
+			(xy 59.69 82.55) (xy 72.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867afb9f-955a-448b-ba1e-0097cf73fc2a")
 	)
 	(wire
 		(pts
@@ -6169,16 +6163,6 @@
 			(type default)
 		)
 		(uuid "af7896a9-7151-4c3b-84aa-de3965b5eb7b")
-	)
-	(wire
-		(pts
-			(xy 59.69 80.01) (xy 59.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a2f14e-ac0e-423d-a6ce-2a46c51526cf")
 	)
 	(wire
 		(pts
@@ -7032,6 +7016,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 85.09) (xy 59.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd635cee-3e73-4195-a299-4b9b934e0a6c")
+	)
+	(wire
+		(pts
 			(xy 139.7 71.12) (xy 139.7 57.15)
 		)
 		(stroke
@@ -7389,6 +7383,17 @@
 		)
 		(uuid "c63b5a41-be10-478e-8465-e0d57fdba1a3")
 	)
+	(text "PIN 1 is\nkey pin"
+		(exclude_from_sim no)
+		(at 31.242 106.426 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8121139-8d52-4829-af7b-cf3a004c0487")
+	)
 	(text "R_{FBT}\n1%"
 		(exclude_from_sim no)
 		(at 83.312 40.132 0)
@@ -7413,7 +7418,7 @@
 	)
 	(text "Pins 4,6,8,10\nreserved for\nfuture boards\nwith 4x CAN"
 		(exclude_from_sim no)
-		(at 61.976 83.312 0)
+		(at 61.976 81.788 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -7621,13 +7626,13 @@
 		(uuid "1773c4ea-1f9d-443d-9a0d-371e58dd325c")
 	)
 	(label "SWDIO"
-		(at 21.59 115.57 0)
+		(at 52.07 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "196722e3-5d84-4503-a171-6a3ee5e3835d")
 	)
@@ -8391,13 +8396,13 @@
 		(uuid "c44be568-c032-48cb-b113-f1203dba0f00")
 	)
 	(label "SWCLK"
-		(at 52.07 115.57 180)
+		(at 21.59 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c89ccffc-8ab6-48c5-9cc0-43ee358e3e84")
 	)
@@ -11745,71 +11750,6 @@
 			(project ""
 				(path "/c35a64e4-2c93-4785-901b-32ffcab28aed"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 59.69 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b83b044b-6999-491f-8cf5-599cb415f87c")
-		(property "Reference" "#PWR019"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 59.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92c44e54-6b76-44d9-b596-c7228c0475f6")
-		)
-		(instances
-			(project "SparrowX"
-				(path "/c35a64e4-2c93-4785-901b-32ffcab28aed"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
