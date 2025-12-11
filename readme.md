@@ -1,5 +1,5 @@
 # TinySparrow
-A compact, low-cost, CAN-FD enabled *core board* for all sorts of automotive shenanigans (and beyond)!
+A compact, low(ish)-cost, CAN-FD enabled *core board* for all sorts of automotive shenanigans (and beyond)!
 
 ![TinySparrow X board](/docs/tsx-rendering.png?raw=true "TinySparrow X board rendering")
 
@@ -43,7 +43,7 @@ in all your CAN-enabled device ideas.
 
 |              |              |             |        |        |        |        |     |     |     |            |            |
 |:------------:|:------------:|:-----------:|:------:|:------:|:------:|:------:|:---:|:---:|:---:|:----------:|:----------:|
-| Key pin (NC) |      GND     |     GND     |    x   |    x   |    x   |    x   | GND |  x  |  x  |      x     |  GND       |
+| Key (no pin) |      GND     |     GND     |    x   |    x   |    x   |    x   | GND |  x  |  x  |      x     |  GND       |
 |     PA10     |  USB+ (PA12) | USB- (PA11) | CAN0 H | CAN0 L | CAN1 H | CAN1 L | GND |  x  |  x  |      x     | PB14       |
 | nRESET (PF2) |  +3V3 (PROG) |             |        |        |        |        |     |     |     |    PB13    | PB12       |
 | SWCLK (PA14) | SWDIO (PA13) |             |        |        |        |        |     |     |     |    PB11    | PB10       |
@@ -51,11 +51,11 @@ in all your CAN-enabled device ideas.
 |      PB3     |      PD3     |             |        |        |        |        |     |     |     |    PB15    |  PA8       |
 |      PB4     |      PB5     |             |        |        |        |        |     |     |     |     PA9    |  PC6       |
 |      PB6     |      PB7     |             |        |        |        |        |     |     |     | Power good |  PC7       |
-|      PB8     |      PB9     |     PC13    |  PC15  |  +3V3  |   PF1  |   PA1  | PA3 | PA5 | PA7 |      x     |  +VDC (in) |
-|      GND     |      GND     |     PC14    |  +VBAT |  +3V3  |   PF0  |   PA0  | PA2 | PA4 | PA6 |     GND    |  GND       |
+|      PB8     |      PB9     |     PC13    |  PC15  |  +3V3  |   PF1  |   PA1  | PA3 | PA5 | PA7 |      x     |  GND       |
+|      GND     |      GND     |     PC14    |  +VBAT |  +3V3  |   PF0  |   PA0  | PA2 | PA4 | PA6 |     GND    |  +VDC (in) |
 
 
 ### Revision/stepping info
 
 * `A1`: initial release for Gen2 design
-* `A2`: ESD diode routing fixes, lighter application of via-in-pad to improve manufacturability *(Breaking pinout change: SWDIO/SWCLK swap, top left corner now a NC key pin)*
+* `A2`: ESD diode routing fixes, lighter application of via-in-pad to improve manufacturability *(Breaking pinout change: SWDIO/SWCLK swap, +VDC in moved)*
